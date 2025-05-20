@@ -1,0 +1,1 @@
+docker compose -f mainnet-api.yml  up -d --build

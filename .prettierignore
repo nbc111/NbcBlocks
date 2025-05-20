@@ -1,0 +1,8 @@
+build
+dist
+out
+static
+.next
+.bos
+*.css
+__ENV.js
