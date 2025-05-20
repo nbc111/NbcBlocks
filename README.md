@@ -1,6 +1,6 @@
-# NearBlocks Near Explorer
+# NbcBlocks Nbc Explorer
 
-[NearBlocks](https://nearblocks.io/) is the leading [Near Blockchain Explorer](https://nearblocks.io), Search, API and Analytics Platform for Near Protocol, a decentralized smart contracts platform. Built and launched in 2022, it is one of the earliest projects built around Near Protocol and its community with the mission of providing equitable access to blockchain data
+[NbcBlocks](https://Nbcblocks.io/) is the leading [Nbc Blockchain Explorer](https://Nbcblocks.io), Search, API and Analytics Platform for Nbc Protocol, a decentralized smart contracts platform. Built and launched in 2022, it is one of the earliest projects built around Nbc Protocol and its community with the mission of providing equitable access to blockchain data
 
 ## Setup
 
@@ -28,17 +28,17 @@ Turborepo is used as the build system for our project. Our main modules reside i
 - api: standalone server which serves the indexed data
 - backend: contains database migrations and cron jobs to fetch and generate stats
 - bos-components: our components built on BOS
-- explorer-selector: BOS gateway for selecting your favourite explorer (Nearblocks)
-- indexer-base: our indexer built using near lake to index blocks, receipts, transactions, accounts and access keys for storing in timescale
+- explorer-selector: BOS gateway for selecting your favourite explorer (Nbcblocks)
+- indexer-base: our indexer built using Nbc lake to index blocks, receipts, transactions, accounts and access keys for storing in timescale
 - indexer-balance: secondary indexer for tracking timeseries account balances
 - indexer-events: secondary indexer for tracking timeseries FT and NFT events
 
 ## Contributing
 
-We welcome contribution to NearBlocks, please see [CONTRIBUTING](CONTRIBUTING.md) for more information.
+We welcome contribution to NbcBlocks, please see [CONTRIBUTING](CONTRIBUTING.md) for more information.
 
 ## License
 
-NearBlocks is licensed under the terms of Business Source License 1.1.
+NbcBlocks is licensed under the terms of Business Source License 1.1.
 
 See [LICENSE](LICENCE.md) for details
