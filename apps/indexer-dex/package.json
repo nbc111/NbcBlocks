@@ -1,0 +1,40 @@
+{
+  "name": "indexer-dex",
+  "version": "0.1.0",
+  "author": "NearBlocks",
+  "license": "Business Source License 1.1",
+  "type": "module",
+  "imports": {
+    "#*": [
+      "./dist/*.js"
+    ]
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn clean && tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec \"yarn build && yarn start\" --watch src --ext ts",
+    "lint": "tsc --noEmit && eslint ./ --fix",
+    "lint:check": "tsc --noEmit && eslint ./"
+  },
+  "dependencies": {
+    "@sentry/node": "7.74.1",
+    "big.js": "6.2.1",
+    "envalid": "8.0.0"
+  },
+  "devDependencies": {
+    "@types/big.js": "~6.2",
+    "@types/node": "~20.8",
+    "eslint-config-custom-node": "*",
+    "nb-json": "*",
+    "nb-knex": "*",
+    "nb-logger": "*",
+    "nb-lake": "*",
+    "nb-neardata": "*",
+    "nb-tsconfig": "*",
+    "nb-types": "*",
+    "nodemon": "~2.0",
+    "rimraf": "~5.0",
+    "typescript": "~5.2"
+  }
+}
