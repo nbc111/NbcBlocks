@@ -11,6 +11,5 @@ services:
     env_file: testnet.api.env
     ports:
       - 'http://206.238.197.207:3008'
-
 volumes:
   redis-data:
