@@ -1,17 +1,17 @@
-# Contributing to Near Blocks
+# Contributing to Nbc Blocks
 
-Thank you for your interest in contributing to Near Blocks
+Thank you for your interest in contributing to Nbc Blocks
 
 ## Feature Requests & Bug Reports
 
-To request feature requests please request through our Github issues here https://github.com/Nearblocks/nearblocks/issues/new
+To request feature requests please request through our Github issues here https://github.com/Nbcblocks/Nbcblocks/issues/new
 
 Please provide as much information as possible so we can properly understand your request. We will try our best to accomodate features which are high in demand.
 
 Bug reports can also be made through Github issues, again please provide as much information as possible including steps to replicate.
 
 If you believe reporting your bug publicly represents a security risk, please send us
-[a message via GitHub Security tab](https://github.com/nearblocks/nearblocks/security/advisories).
+[a message via GitHub Security tab](https://github.com/Nbcblocks/Nbcblocks/security/advisories).
 
 ## Pull Requests
 
@@ -29,7 +29,7 @@ can "spam" the issue in question.
 
 Once Pull Request is ready and reviewed by the code owners, it gets squashed into a single commit,
 where the commit message should follow
-[Conventional Commits](https://commonwealth.im/near/proposal/discussion/264-the-commit-template)
+[Conventional Commits](https://commonwealth.im/Nbc/proposal/discussion/264-the-commit-template)
 style.
 
 ## Code Style

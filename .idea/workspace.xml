@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f262030-722b-4546-845c-8023daef244b" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/generate-env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/next-sitemap.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/nohup.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/android_chrome_192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/android_chrome_512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/apple_touch_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/favicon_16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/favicon_32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/Frame36070.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/Frame36071.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/Frame36072.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/Frame36073.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/LOGO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/banner-ads-near.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/active-addresses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/addresses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/addresses_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/block-rewards.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/blocks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/blocks_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/market-cap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/market-cap_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/near-price.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/near-price_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/near-supply.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/near-supply_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/netspace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/supply.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/tps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/tps_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/txn-fee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/txn-fee_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/txn-volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/txn-volume_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/txns.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/charts/txns_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/coingecko_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/coingecko_logo_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/discord_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/discord_icon_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/email_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/email_icon_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/facebook_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/facebook_icon_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/github_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/github_icon_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/icon-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/leaf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/market.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/market_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/nb-black-on-bos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/nb-black-on-bos_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/near price-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/near price.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/near price_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/near.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/nearblocks-telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/nearblocksblack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/nearblocksblack_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/neargrey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/neargrey_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/pickaxe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/pickaxe_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/pipe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/search-ads-near.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/telegram_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/telegram_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/text-ads-near.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/tokenplaceholder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/transactions.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/transactions_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/twitter_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/twitter_icon_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/wavey_fingerprint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/wavey_fingerprint_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/web_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/web_icon_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/world-link-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/images/world-link-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/opensearch_mainnet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/opensearch_testnet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/charts_statistics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_acc_claimed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_advertise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_apis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_blocks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_homepage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_nft_tokens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_nft_tokentxns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_terms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_tokens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_tokentxns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/public/thumbnail/thumbnail_transaction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/sentry.client.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/sentry.server.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/ActiveLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/AccessKeyRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/AccessKeys.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Balance.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Buttons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Contract/ContractCode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Contract/ContractOverview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Contract/Info.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Contract/VerificationStatus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Contract/VerifiedData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Contract/Verifier.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Contract/ViewOrChange.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Contract/ViewOrChangeAbi.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/MultiChainTxns.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/NFTTransactions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Receipts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/TokenTransactions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Address/Transactions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Banner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Blocks/Detail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Blocks/Latest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Blocks/List.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Charts/Chart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Charts/TpsChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Collapse.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Export.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Arrow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/ArrowDown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/ArrowRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/ArrowUp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Bitcoin.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Check.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Clock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/CloseCircle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/CoinGecko.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/CoinMarketcap.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/CopyIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Delegate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Download.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/ErrorIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Ethereum.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaAddressBook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaArrowAltCircleRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaCaretRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaCheckCircle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaChevronLeft.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaChevronRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaCode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaCoins.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaExclamationCircle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaExpand.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaExternalLinkAlt.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaHourglassStart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaInbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaKey.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaLongArrowAltRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaMinimize.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaRegTimesCircle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaTimesCircle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FaUser.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FileCode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/FileSlash.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Filter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/ListCheck.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/QRCodeIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Question.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/Rpc.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/SearchIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/SortIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/User.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Icons/WarningIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/ImageModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Layouts/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Layouts/FormContact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Layouts/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Layouts/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Layouts/RpcMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Layouts/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/MetaTags.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/NodeExplorer/Delegators.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/NodeExplorer/NodeList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/RateLimitDialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/SponserdText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/SwitchButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/FT/FAQ.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/FT/Holders.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/FT/Info.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/FT/Overview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/FT/TokenFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/FT/Transfers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/FTList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/FTTransfers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/NFT/Detail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/NFT/Holders.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/NFT/Inventory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/NFT/Overview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/NFT/TokenTransfers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/NFT/Transfers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/NFTList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Tokens/NFTTransfers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/AddKey.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Burrow/Borrow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Burrow/DecreaseCollateral.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Burrow/Deposit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Burrow/DopositToReserve.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Burrow/IncreaseCollateral.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Burrow/Repay.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Burrow/WithdrawSucceeded.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Burrow/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/CreateAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/DeleteAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/DeployContract.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/FunctionCall.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Ref/Swap.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Ref/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Stake.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Transfer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Wrap/Withdraw.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Wrap/WrapDeposit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/Wrap/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Action/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Actions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Details.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Execution.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Latest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/List.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Overview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipt.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/ReceiptSummary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/Action/AddKey.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/Action/CreateAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/Action/DeleteAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/Action/DeleteKey.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/Action/DeployContract.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/Action/FunctionCall.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/Action/Stake.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/Action/Transfer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/ReceiptInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/ReceiptKind.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/ReceiptRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/ReceiptStatus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/ReceiptSummaryRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/RlpTransaction.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/TransactionActions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Receipts/TransactionReceipt.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/Tree.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/Action/AddKey.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/Action/CreateAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/Action/DeleteAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/Action/DeleteKey.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/Action/DeployContract.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/Action/FunctionCall.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/Action/Stake.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/Action/Transfer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/ReceiptStatus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/TreeNode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/TreeReceipt.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/TreeReceiptDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/Transactions/TreeReceipts/TreeTxnsActions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/CursorPaginator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/ErrorMessage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/Filters.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/Links.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/LoadingCircular.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/Notice.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/Paginator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/QrCode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/Spinner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/Status.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/Table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/TableSummary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/TimeStamp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/TokenHoldings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/TokenImage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/TokenInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/common/TxnsReceiptStatus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/charts/Detail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/charts/Index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/common/Comment.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/common/Detail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/common/Export.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/common/List.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/common/Overview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/common/Skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/ft/FAQ.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/ft/Info.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/ft/Overview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/home/Latest.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/home/Overview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/nft/Detail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/nft/Overview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/node-explorer/Delegator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/node-explorer/Index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/txns/Execution.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/txns/Summary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/skeleton/txns/Tree.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/vm/VmCommitButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/vm/VmComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/components/vm/VmInitializer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/data/bos-components.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/data/web3.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/useBosComponents.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/useBosLoaderInitializer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/useFetch.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/useFilters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/useHash.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/useLoading.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/usePagination.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/useQSFilters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/useRpc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/hooks/useSorting.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/instrumentation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/404.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/_app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/_document.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/_error.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/about.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/address/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/advertise.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/api/contact.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/api/health-check.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/apis.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/blocks/[hash].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/blocks/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/active-accounts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/addresses.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/blocks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/market-cap.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/near-price.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/near-supply.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/tps.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/txn-fee.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/txn-volume.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/charts/txns.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/exportdata.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/hash/[receipt].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/nft-token/[id]/[tid]/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/nft-token/[id]/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/nft-token/exportdata.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/nft-tokens.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/nft-tokentxns.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/node-explorer/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/node-explorer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/terms-and-conditions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/token/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/token/exportdata.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/tokens.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/tokentxns.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/txns/[hash].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/txns/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/pages/verify-contract/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/stores/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/stores/bos-loader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/stores/current-component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/stores/rpc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/stores/vm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/dayjs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/fetchData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/fetcher.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/hexy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/libs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/near.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/rpc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/search.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/src/utils/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/app/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ChunhuoQ&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ChunhuoQ/NbcBlocks.git&quot;,
+    &quot;accountId&quot;: &quot;b0d08de4-7877-4978-84d7-4aa75dcace48&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2xN1vNpovDCDpGBz7yUWkmLeEjn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/WorkPlace/nearblocks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f262030-722b-4546-845c-8023daef244b" name="Changes" comment="" />
+      <created>1747763946386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747763946386</updated>
+      <workItem from="1747763947498" duration="27000" />
+      <workItem from="1747763980236" duration="755000" />
+      <workItem from="1747973272892" duration="653000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1747764053363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747764053363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+</project>

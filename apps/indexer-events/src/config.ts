@@ -19,13 +19,15 @@ const env = cleanEnv(process.env, {
   NETWORK: str({
     choices: [Network.MAINNET, Network.TESTNET],
   }),
+  S3_BUCKET: str({ default: '' }),
   S3_ENDPOINT: url({ default: '' }),
+  S3_REGION: str({ default: '' }),
   SENTRY_DSN: str({ default: '' }),
 });
 
 const genesisHeight = env.NETWORK === Network.MAINNET ? 9_820_210 : 42_376_888;
 let s3Endpoint: null | types.EndpointConfig = null;
-const s3BucketName =
+//const s3BucketName =
   env.NETWORK === Network.MAINNET
     ? 'near-lake-data-mainnet'
     : 'near-lake-data-testnet';

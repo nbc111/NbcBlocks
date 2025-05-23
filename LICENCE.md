@@ -7,10 +7,10 @@ License text copyright (c) 2017 MariaDB Corporation Ab, All Rights Reserved.
 
 Parameters
 
-Licensor: Nearblocks Pte Ltd
+Licensor: Nbcblocks Pte Ltd
 
-Licensed Work: Nearblocks
-The Licensed Work is (c) 2023 Nearblocks Pte Ltd
+Licensed Work: Nbcblocks
+The Licensed Work is (c) 2023 Nbcblocks Pte Ltd
 
 Additional Use Grant: N/A
 

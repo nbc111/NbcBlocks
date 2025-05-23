@@ -1,0 +1,978 @@
+yarn run v1.22.22
+warning package.json: License should be a valid SPDX license expression
+$ next dev
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to '/www/nearblocks/apps/app/public/__ENV.js'.
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to '/www/nearblocks/apps/app/public/__ENV.js'.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env
+  - Experiments (use with caution):
+    · instrumentationHook
+    · outputFileTracingRoot
+
+ ✓ Starting...
+ ○ Compiling /instrumentation ...
+ ✓ Compiled /instrumentation in 1528ms (752 modules)
+ ✓ Ready in 4.2s
+yarn run v1.22.22
+warning package.json: License should be a valid SPDX license expression
+$ next dev
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to '/www/nearblocks/apps/app/public/__ENV.js'.
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to '/www/nearblocks/apps/app/public/__ENV.js'.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env
+  - Experiments (use with caution):
+    · instrumentationHook
+    · outputFileTracingRoot
+
+ ✓ Starting...
+ ○ Compiling /instrumentation ...
+ ✓ Compiled /instrumentation in 1506ms (752 modules)
+ ✓ Ready in 4s
+yarn run v1.22.22
+warning package.json: License should be a valid SPDX license expression
+$ next dev
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to '/www/nearblocks/apps/app/public/__ENV.js'.
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to '/www/nearblocks/apps/app/public/__ENV.js'.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env
+  - Experiments (use with caution):
+    · instrumentationHook
+    · outputFileTracingRoot
+
+ ✓ Starting...
+ ○ Compiling /instrumentation ...
+ ✓ Compiled /instrumentation in 1395ms (752 modules)
+ ✓ Ready in 4s
+yarn run v1.22.22
+warning package.json: License should be a valid SPDX license expression
+$ next dev
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to '/www/nearblocks/apps/app/public/__ENV.js'.
+- event [next-runtime-env] read environment variables prefixed with 'NEXT_PUBLIC_' from process.env.
+- ready [next-runtime-env] wrote browser runtime environment variables to '/www/nearblocks/apps/app/public/__ENV.js'.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env
+  - Experiments (use with caution):
+    · instrumentationHook
+    · outputFileTracingRoot
+
+ ✓ Starting...
+ ○ Compiling /instrumentation ...
+ ✓ Compiled /instrumentation in 1357ms (752 modules)
+ ✓ Ready in 3.7s
+ ○ Compiling /txns ...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ ✓ Compiled /blocks/[hash] in 18.2s (4884 modules)
+fetcher: http://206.238.196.207:3001/v1/blocks/2PsZivxQLDeEFrPSthCVNUewBCcnqVuEgYfugMbGdBqS authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/txns?block=8kU3jG7ccSL81AVF5uzWmsRVMyqrVAT2wfesumhjBgVf authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/txns/count?block=8kU3jG7ccSL81AVF5uzWmsRVMyqrVAT2wfesumhjBgVf authorization: Bearer HP4D232B0F14C34A619B58267F844
+ GET /blocks/2PsZivxQLDeEFrPSthCVNUewBCcnqVuEgYfugMbGdBqS 200 in 15886ms
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/blocks/[hash].tsx:51:35)
+    at async __Next_Translate__getServerSideProps__19544f04d9d__ (webpack-internal:///./src/pages/blocks/[hash].tsx:252:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/txns/index.tsx:55:47)
+    at async __Next_Translate__getServerSideProps__19545b5e1f7__ (webpack-internal:///./src/pages/txns/index.tsx:257:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/txns/index.tsx:55:47)
+    at async __Next_Translate__getServerSideProps__19545b5e1f7__ (webpack-internal:///./src/pages/txns/index.tsx:257:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1507:28)
+    at async DevServer.renderPageComponent (/www/nearblocks/node_modules/next/dist/server/base-server.js:1931:24)
+    at async DevServer.renderToResponseImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1969:32) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+ ○ Compiling / ...
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/blocks/[hash].tsx:54:92)
+    at async __Next_Translate__getServerSideProps__19544f04d9d__ (webpack-internal:///./src/pages/blocks/[hash].tsx:252:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/txns/index.tsx:59:92)
+    at async __Next_Translate__getServerSideProps__19545b5e1f7__ (webpack-internal:///./src/pages/txns/index.tsx:257:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/txns/index.tsx:59:92)
+    at async __Next_Translate__getServerSideProps__19545b5e1f7__ (webpack-internal:///./src/pages/txns/index.tsx:257:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/txns[0m - locale: [36mru[0m - namespaces: [36mcommon, txns[0m - used loader: [36mgetServerSideProps[0m
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/blocks/[hash].tsx:54:92)
+    at async __Next_Translate__getServerSideProps__19544f04d9d__ (webpack-internal:///./src/pages/blocks/[hash].tsx:252:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1507:28)
+    at async DevServer.renderPageComponent (/www/nearblocks/node_modules/next/dist/server/base-server.js:1931:24) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/blocks/[hash][0m - locale: [36mid[0m - namespaces: [36mcommon, blocks, txns[0m - used loader: [36mgetServerSideProps[0m
+Warning: Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+    at svg
+    at FileSlash
+    at span
+    at div
+    at div
+    at ErrorMessage (webpack-internal:///./src/components/common/ErrorMessage.tsx:8:25)
+    at div
+    at div
+    at div
+    at Details (webpack-internal:///./src/components/Blocks/Detail.tsx:32:13)
+    at div
+    at Block
+    at main
+    at div
+    at Layout (webpack-internal:///./src/components/Layouts/index.tsx:25:19)
+    at G (/www/nearblocks/node_modules/next-themes/dist/index.js:1:947)
+    at B (/www/nearblocks/node_modules/next-themes/dist/index.js:1:861)
+    at App (webpack-internal:///./src/pages/_app.tsx:51:16)
+    at I18nProvider (/www/nearblocks/node_modules/next-translate/lib/cjs/I18nProvider.js:48:18)
+    at AppWithTranslations
+    at StyleRegistry (/www/nearblocks/node_modules/styled-jsx/dist/index/index.js:449:36)
+    at eU (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:8:20468)
+    at eH (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:1765)
+    at eJ (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3068)
+    at div
+    at e9 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:26:761)
+ GET /txns?block=8kU3jG7ccSL81AVF5uzWmsRVMyqrVAT2wfesumhjBgVf 200 in 41395ms
+ ✓ Compiled / in 1880ms (4913 modules)
+fetcher: http://206.238.196.207:3001/v1/charts/latest authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/txns/latest authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:59:56)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 2)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:59:56)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:59:56)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1507:28)
+    at async DevServer.renderPageComponent (/www/nearblocks/node_modules/next/dist/server/base-server.js:1931:24)
+    at async DevServer.renderToResponseImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1969:32) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:67:99)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:67:99)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1507:28)
+    at async DevServer.renderPageComponent (/www/nearblocks/node_modules/next/dist/server/base-server.js:1931:24) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/[0m - locale: [36men[0m - namespaces: [36mcommon, home[0m - used loader: [36mgetServerSideProps[0m
+ GET / 200 in 23029ms
+ ○ Compiling /404 ...
+ ✓ Compiled /404 in 1036ms (4924 modules)
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/charts/latest authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/txns/latest authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async /www/nearblocks/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /www/nearblocks/node_modules/next/dist/lib/batcher.js:45:32 {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/404[0m - locale: [36men[0m - namespaces: [36mcommon, 404[0m - used loader: [36mgetStaticProps[0m
+ GET /_next/webpack-hmr 404 in 11638ms
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 2)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:59:56)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:59:56)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:59:56)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1507:28)
+    at async DevServer.renderPageComponent (/www/nearblocks/node_modules/next/dist/server/base-server.js:1931:24)
+    at async DevServer.renderToResponseImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1969:32) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/charts/latest authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/txns/latest authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:67:99)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:67:99)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/[0m - locale: [36men[0m - namespaces: [36mcommon, home[0m - used loader: [36mgetServerSideProps[0m
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async /www/nearblocks/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /www/nearblocks/node_modules/next/dist/lib/batcher.js:45:32 {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/404[0m - locale: [36men[0m - namespaces: [36mcommon, 404[0m - used loader: [36mgetStaticProps[0m
+ GET / 200 in 20920ms
+ GET /_next/webpack-hmr 404 in 10299ms
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 2)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:59:56)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:59:56)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:59:56)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1507:28)
+    at async DevServer.renderPageComponent (/www/nearblocks/node_modules/next/dist/server/base-server.js:1931:24)
+    at async DevServer.renderToResponseImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1969:32) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async /www/nearblocks/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /www/nearblocks/node_modules/next/dist/lib/batcher.js:45:32 {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/404[0m - locale: [36men[0m - namespaces: [36mcommon, 404[0m - used loader: [36mgetStaticProps[0m
+ GET /_next/webpack-hmr 404 in 10231ms
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:67:99)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getServerSideProps$1 (webpack-internal:///./src/pages/index.tsx:67:99)
+    at async __Next_Translate__getServerSideProps__19544dd31fd__ (webpack-internal:///./src/pages/index.tsx:408:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:107:27
+    at async Object.apply (/www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/wrapGetServerSidePropsWithSentry.js:37:11)
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:25:124)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/www/nearblocks/node_modules/next/dist/server/base-server.js:1507:28)
+    at async DevServer.renderPageComponent (/www/nearblocks/node_modules/next/dist/server/base-server.js:1931:24) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/[0m - locale: [36men[0m - namespaces: [36mcommon, home[0m - used loader: [36mgetServerSideProps[0m
+ GET / 200 in 20860ms
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async /www/nearblocks/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /www/nearblocks/node_modules/next/dist/lib/batcher.js:45:32 {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/404[0m - locale: [36men[0m - namespaces: [36mcommon, 404[0m - used loader: [36mgetStaticProps[0m
+ GET /_next/webpack-hmr 404 in 10280ms
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async /www/nearblocks/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /www/nearblocks/node_modules/next/dist/lib/batcher.js:45:32 {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/404[0m - locale: [36men[0m - namespaces: [36mcommon, 404[0m - used loader: [36mgetStaticProps[0m
+ GET /_next/webpack-hmr 404 in 12195ms
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 0)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28) {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+Fetch error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13392:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetcher (webpack-internal:///./src/utils/fetcher.ts:10:26)
+    at async Promise.allSettled (index 1)
+    at async fetchData (webpack-internal:///./src/utils/fetchData.ts:13:87)
+    at async getStaticProps$1 (webpack-internal:///./src/pages/404.tsx:37:92)
+    at async __Next_Translate__getStaticProps__19544ddb822__ (webpack-internal:///./src/pages/404.tsx:75:17)
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:39:14
+    at async /www/nearblocks/node_modules/@sentry/nextjs/build/cjs/common/utils/wrapperUtils.js:180:16
+    at async e8 (/www/nearblocks/node_modules/next/dist/compiled/next-server/pages.runtime.dev.js:17:3907)
+    at async doRender (/www/nearblocks/node_modules/next/dist/server/base-server.js:1425:30)
+    at async cacheEntry.responseCache.get.routeKind (/www/nearblocks/node_modules/next/dist/server/base-server.js:1599:28)
+    at async /www/nearblocks/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /www/nearblocks/node_modules/next/dist/lib/batcher.js:45:32 {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: 206.238.196.207:3001, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2599:28)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2583:11)
+      at process.processImmediate (node:internal/timers:491:21)
+      at process.callbackTrampoline (node:internal/async_hooks:130:17) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+[36mnext-translate[0m - compiled page: [36m/404[0m - locale: [36men[0m - namespaces: [36mcommon, 404[0m - used loader: [36mgetStaticProps[0m
+ GET /_next/webpack-hmr 404 in 10516ms
+fetcher: http://206.238.196.207:3001/v1/stats authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/latest?limit=1 authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/7svW5V7vmjVtg9eSzuphDexpWoJ4atd5R8U8vSg9azZc authorization: Bearer HP4D232B0F14C34A619B58267F844
+fetcher: http://206.238.196.207:3001/v1/blocks/2VFczf7deKuR7cBxGgzgN6HUHHHDFhVXpghnM82FmedG authorization: Bearer HP4D232B0F14C34A619B58267F844
