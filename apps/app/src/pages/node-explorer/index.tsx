@@ -85,7 +85,7 @@ const NodeExplorer = ({
 }: InferGetServerSidePropsType<typeof getServerSideProps>) => {
   const router = useRouter();
   const rpcUrl: string = useRpcStore((state) => state.rpc);
-  const title = 'Pex Validator List | Pexblocks';
+  const title = 'Nbc Validator List | Nbcblocks';
   const thumbnail = `${ogUrl}/thumbnail/basic?title=Nbc%20Protocol%20Validator%20Explorer&brand=near`;
 
   useEffect(() => {

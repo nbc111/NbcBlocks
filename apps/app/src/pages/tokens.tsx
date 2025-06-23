@@ -99,11 +99,11 @@ const TopFTTokens = ({
         <title>
           {`${
             network === 'testnet' ? 'TESTNET' : ''
-          } Pex Protocol Ecosystem Tokens (NEP-141) | PexBlocks`}
+          } Nbc Protocol Ecosystem Tokens (NEP-141) | NbcBlocks`}
         </title>
         <meta
           name="title"
-          content="Pex Protocol Ecosystem Tokens (NEP-141) | PexBlocks"
+          content="Nbc Protocol Ecosystem Tokens (NEP-141) | NbcBlocks"
         />
         <meta
           name="description"
@@ -111,7 +111,7 @@ const TopFTTokens = ({
         />
         <meta
           property="og:title"
-          content="Pex Protocol Ecosystem Tokens (NEP-141) | PexBlocks"
+          content="Nbc Protocol Ecosystem Tokens (NEP-141) | NbcBlocks"
         />
         <meta
           property="og:description"
@@ -119,7 +119,7 @@ const TopFTTokens = ({
         />
         <meta
           property="twitter:title"
-          content="Pex Protocol Ecosystem Tokens (NEP-141) | PexBlocks"
+          content="Nbc Protocol Ecosystem Tokens (NEP-141) | NbcBlocks"
         />
         <meta
           property="twitter:description"
