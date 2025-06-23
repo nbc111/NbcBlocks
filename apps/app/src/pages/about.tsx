@@ -55,7 +55,7 @@ const AboutPage = () => {
   const { t } = useTranslation();
   const thumbnail = `${ogUrl}/thumbnail/basic?title=${encodeURI(
     t('about:heading'),
-  )}&brand=Nbc`;
+  )}&brand=Pex`;
 
   return (
     <Fragment>
@@ -79,7 +79,7 @@ const AboutPage = () => {
         <h1 className="mb-4 pt-8 sm:text-2xl text-center text-2xl text-green-500 dark:text-green-250">
           {t('About NbcScan')}
         </h1>
-        <div className="text-base text-Nbcgray-600 dark:text-Nbcgray-10 py-8  mx-10 text-center">
+        <div className="text-base text-Pexgray-600 dark:text-Pexgray-10 py-8  mx-10 text-center">
           {t(
             'NbcScan is a leading blockchain explorer, search, API, and analytics platform. It was built and launched in 2020, and is one of the earliest projects built around Nbc Protocol and its community, with the mission of providing fair access to blockchain data.',
           )}

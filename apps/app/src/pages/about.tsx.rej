@@ -1,0 +1,10 @@
+diff a/apps/app/src/pages/about.tsx b/apps/app/src/pages/about.tsx	(rejected hunks)
+@@ -55,7 +55,7 @@
+   const { t } = useTranslation();
+   const thumbnail = `${ogUrl}/thumbnail/basic?title=${encodeURI(
+     t('about:heading'),
+-  )}&brand=Pex`;
++  )}&brand=Nbc`;
+ 
+   return (
+     <Fragment>
